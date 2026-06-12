@@ -1,41 +1,52 @@
-body {
+body { /*Everything*/
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.para,
+.para,  /*class para and small-para*/
 .small-para {
   color: hsl(0, 0%, 0%);
+  
+}
+
+
+.para {   /*just para*/
+  font-size: large;
+  font-weight: 1000;
+}
+
+.small-para {  /*just small-para*/
+  font-size: small;
   font-weight: 800;
+  
 }
 
-.small-para {
-  font-size: 14px;
-  font-weight: 800;
-}
 
-.para {
-  font-size: 22px;
-}
 
-.confirm {
+.confirm {   /*just confirm*/
   background: green;
   color: white;
   font-weight: bold;
 } 
 
-.button {
+.button {  /*just button*/
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
 
-.child {
+.child {  /*just child*/
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
 }
 
-div.text {
+
+#confirm-button {
+  color: white;
+  background-color: green;
+}
+
+div.text {  /* text that is a child of div */
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
